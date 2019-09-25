@@ -1,0 +1,115 @@
+body {
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    background-color: #2d68e7;
+  }
+
+h1{
+    text-align: center;
+    color: #a0e4f5;
+}
+
+p{
+    text-align:center;
+}
+.explicacion{
+    text-align: justify;
+    padding: 20px 50px 20px 50px;
+    background-color: #2459cc;
+}
+ul{
+    text-align:center;
+    margin-top:60px;
+}
+
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    border: black 2px solid;
+    color: white;
+    background-color: #171ac2;
+    list-style:none;
+    width: 38px;
+    height: 38px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+         
+  }
+
+.contador{
+    margin-left:48.5%;
+}
+
+.contador p {
+    
+    width: 38px;
+    height: 38px;
+    font-size: 30px;
+    text-align:center;
+    border: black 2px solid;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+
+#aciertos{
+    text-align:center;
+    background-color:#19A547;
+}
+
+#fallos{
+    background-color:#AF1B1B;
+}
+
+#iniciarJuego{
+    background-color: #e4963c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 280px;
+    margin-bottom:5px;
+    
+}
+
+#evaluarPregunta{
+    
+    background-color: #e4963c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 280px;
+    margin-top:20px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto
+    
+}
+
+.controlPreguntas{
+    text-align:center;
+    margin-top: 60px;
+    
+}
+
+
+

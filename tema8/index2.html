@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>PASAPALABRA HTML/CSS</title>
+</head>
+<body onload=pasapalabra()>
+    <h1>BIENVENIDO AL JUEGO PASAPALABRA</h1>
+    <p class="explicacion">Pasapalabra es un concurso de televisión español emitido desde el 10 de julio de 2000 en diferentes cadenas. Originalmente se emitía a través del canal Antena 3, donde permaneció hasta 2006, cuando el programa dejó de emitirse. Un año después, en 2007, el programa regresaría en Telecinco, que lo emite desde entonces.2​ Está basado en el formato original británico «The Alphabet Game»,3​ y en él, dos concursantes intentan acumular segundos en varias pruebas con palabras, que servirán para tener más tiempo para contestar a todas las definiciones de la prueba final, llamada «el rosco».
+       Fue el concurso que entregó el mayor premio de la televisión en España en su día (€2.190.000), récord que le arrebató el concurso ¡Boom! en 2016 (€2.326.500) 4​ Ha sido presentado por Silvia Jato, Jaime Cantizano y Constantino Romero en Antena 3; y desde 2007, por Christian Gálvez en Telecinco.5​ En 2010, fue galardonado con el premio especial del jurado de los Premios Ondas 2010, por sus 10 años de éxito en televisión.6​
+       Desde su estreno,5​ el concurso presentado por Christian Gálvez se emite de lunes a jueves desde las 20:05h a 21:05h (aproximadamente) en Telecinco, liderando su franja de emisión a diario. En julio de 2017, el programa es eliminado de la parrilla de los viernes, sábados y domingos para ceder su puesto a Viva la vida, tal y como ocurrió anteriormente con el programa de María Teresa Campos, ¡Qué tiempo tan feliz!7​</p>
+    <div class="rosco">
+        <ul>
+            <li id="letraA">A</li>
+            <li id="letraB">B</li>
+            <li id="letraC">C</li>
+            <li id="letraD">D</li>
+            <li id="letraE">E</li>
+            <li id="letraF">F</li>
+            <li id="letraG">G</li>
+            <li id="letraH">H</li>
+            <li id="letraI">I</li>
+            <li id="letraJ">J</li>
+            <li id="letraK">K</li>
+            <li id="letraL">L</li>
+            <li id="letraM">M</li>
+            <li id="letraN">N</li>
+            <li id="letraEnye">Ñ</li>
+            <li id="letraO">O</li>
+            <li id="letraP">P</li>
+            <li id="letraQ">Q</li>
+            <li id="letraR">R</li>
+            <li id="letraS">S</li>
+            <li id="letraT">T</li>
+            <li id="letraU">U</li>
+            <li id="letraV">V</li>
+            <li id="letraW">W</li>
+            <li id="letraX">X</li>
+            <li id="letraY">Y</li>
+            <li id="letraZ">Z</li>
+
+        </ul>
+         
+    </div>
+    <div class="controlPreguntas">
+        <button id="iniciarJuego">EMPEZAR PASAPALABRA</button>
+        <p id="pregunta"></p>
+        Respuesta: <input id="respuesta" type="text" name="fname" value=""><br>
+        <button id="evaluarPregunta">EVALUAR PREGUNTA</button>
+    
+    </div>
+    <div class="contador">
+        <h4>Aciertos:</h4>
+        <p id="aciertos"></p>
+        <h4>Fallos:</h4>
+        <p id="fallos"></p>
+    </div>
+
+    <script type="text/javascript" src="js/main2.js"></script>
+
+</body>
+</html>
